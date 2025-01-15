@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { BtnPrimaryComponent } from "../btn-primary/btn-primary.component";
 
 @Component({
-  selector: 'app-newsletter-form',
+  selector: 'newsletter-form',
   standalone: true,
-  imports: [],
+  imports: [BtnPrimaryComponent],
   templateUrl: './newsletter-form.component.html',
   styleUrl: './newsletter-form.component.scss'
 })
